@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+   color: gray; 
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 221, 221);
+}
+
+.GAME{
+  padding: 10px;
+  width: 30vw;
+  height: 40vh;
+
+}
+
+.game--box{
+  border:2px solid gray;
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.GAMEAREA{
+  /* border: 2px solid black; */
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .GAMEAREA>div{
+  border: 1px solid gray;
+} */
+
+.game--name{
+  font-weight: 1000;
+  font-size: 30px;
+  color: gray;
+}
+
+
+.move{
+  width: 100%;
+  text-align: center;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 17px;
+}
+
+h3{
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: 7px;
+  padding-left: 10px;
+}
+
+.score{
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.BUTTONS{
+  /* border: 2px solid red; */
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons--1{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button{
+  background-color: gray;
+  color: white;
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 16px;
+  box-shadow: 1px 1px 2px 0.1px gray;
+}
+
+button:hover{
+  color:rgb(230, 221, 221);
+}
+
+button:active{
+  color: white;
+}
+
